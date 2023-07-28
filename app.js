@@ -9,7 +9,7 @@ const client = new Client({
   host: 'localhost',
   database: 'llu26',
   password: '12345',
-  port: 31100,
+  port: 12501,
 })
 client.connect(function(err) {
   if (err) throw err;
